@@ -27,6 +27,21 @@
 .App-link {
   color: #61dafb;
 }
+html{
+  /* overflow-x: hidden; */
+}
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login-form{
+  background: transparent;
+}
 
 @keyframes App-logo-spin {
   from {

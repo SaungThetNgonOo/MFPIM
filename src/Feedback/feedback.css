@@ -1,0 +1,237 @@
+body{
+    margin-top: 0!important;
+    padding: 0!important;
+    height: 100%!important;
+}
+.feed{
+    background-color:linen;
+    width: 100%;
+    height: 260vh!important;
+}
+.feedb{
+    padding-top: 6rem;
+    margin-left: 35%;
+}
+.feedHeader{
+    margin-left: 10%;
+    font-size: 20px;
+    color: blue ;
+}
+.feeddiv{
+    /* border: 1px solid black; */
+    width: 20rem;
+    margin: 1rem 0rem;
+    font-weight: 600;
+}
+.feedlog{
+    background-image:linear-gradient(to right, #21d397 0%, #7450de 21%, #1d1ad6 100%);
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    margin: auto;
+    margin-left: 6rem;
+    cursor: pointer;
+}
+.User{
+    margin-left: 3rem;
+}
+.User span{
+    background-color: transparent;
+    color:linear-gradient(60deg,#29323c 0%,#485563 100%) ;
+    font-weight: 800;
+    font-size: 20px;
+}.User button{
+    background-image:linear-gradient(to right, #21d397 0%, #7450de 21%, #1d1ad6 100%);
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    margin: auto;
+    margin-left: 0rem;
+    cursor: pointer;
+}
+.logins{
+    margin: auto;
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    position: fixed;
+    margin-left: 50%;
+    margin-top: 7rem!important;
+}
+@media screen and (max-width:800px) {
+    .secondcontact10 {
+        margin-left: 2.5rem;
+        width: 20rem;
+    }
+    .feedb{
+    padding-top: 6rem;
+    margin-left: 2rem;
+}
+.logins{
+    margin-left: 0;
+}
+.feedHeader{
+    margin-left: 30%;
+}
+}
+
+.secondcontact2 {
+    width: 100%;
+    height: 25rem;
+    margin-top: 4rem;
+}
+
+.secondcontact20 {
+    width: 40rem;
+    height: auto;
+    margin-left: 22rem;
+    /* border: 1px solid purple; */
+}
+
+.secondcontact21 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondcontact210 {
+    width: 15rem;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.secondcontact211 {
+    width: 35rem;
+    height: 3rem;
+    margin-left: 2.3rem;
+    margin-top: 2rem;
+}
+
+.secondcontact212 {
+    width: 35rem;
+    height: 10rem;
+    margin-left: 2.3rem;
+    margin-top: 2rem;
+}
+#demo{
+    width:max-content;
+    height: 1rem!important;
+    margin-bottom: 5rem!important;
+}
+@media screen and (max-width:800px) {
+    .secondcontact20 {
+        margin-left: 1rem;
+        width: 22rem;
+    }
+
+    .secondcontact2 {
+        width: 99%;
+    }
+
+    .secondcontact21 {
+        flex-direction: column;
+    }
+
+    .secondcontact210 {
+        width: 22rem;
+    }
+
+    #name {
+        width: 19rem !important;
+    }
+
+    #mail {
+        width: 19rem !important;
+    }
+
+    .secondcontact211 {
+        width: 22rem;
+        margin-left: 0rem;
+    }
+
+    #sub {
+        width: 17.5rem !important;
+    }
+
+    .secondcontact212 {
+        width: 22rem;
+        margin-left: 0rem;
+    }
+
+    #msg {
+        width: 17.5rem !important;
+        margin-top: 0rem !important;
+    }
+
+    .sumitbtn {
+        width: 10rem !important;
+        margin-left: 5.5rem !important;
+    }
+}
+
+#name {
+    border: 0px solid white;
+    border-bottom: 1px solid black;
+    width: 12rem;
+    height: 2rem;
+    padding: 2px;
+}
+
+#mail {
+    border: 0px solid white;
+    border-bottom: 1px solid black;
+    width: 12rem;
+    height: 2rem;
+    padding: 2px;
+}
+
+#sub {
+    border: 0px solid white;
+    border-bottom: 1px solid black;
+    width: 30rem;
+    height: 2rem;
+    margin-left: .5rem;
+    padding: 2px;
+}
+
+#msg {
+    border: 0px solid white;
+    border-bottom: 1px solid black;
+    width: 30rem;
+    height: 6rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    padding: 2px;
+}
+
+label {
+    text-align: left;
+    margin-top: 0rem;
+}
+
+label.ms {
+}
+
+.sumitbtn {
+    background-image: linear-gradient(to right, #21d397 0%, #7450de 21%, #1d1ad6 100%);
+    border: none;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-left: 15rem;
+}
+.comments{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    padding: 1rem;
+    background-color: silver;
+    color:black;
+}

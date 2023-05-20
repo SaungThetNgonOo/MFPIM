@@ -1,0 +1,529 @@
+
+/* .home-bg{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+} */
+.home{
+    background-color: linen;
+    color:black;
+    width: 100vw;
+    /* overflow-x: hidden; */
+}
+.home-body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: 0;
+}
+.bgphoto{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../Division/Yangon/Kandawgyi3.jpg');
+    background-repeat:round;
+    background-size: cover;
+     position: relative;
+     display: flex;
+}
+.bgphoto h5{
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    background-color: transparent;
+    color:linear-gradient(60deg,#29323c 0%,#485563 100%);
+    margin-top: 8rem;
+    margin-left: 23%;
+    /* margin: auto; */
+    z-index: 1;
+    opacity: 70%;
+    font-weight: 700;
+}
+/* .bgphoto h5 span{
+    color:linear-gradient(60deg,#29323c 0%,#485563 100%);
+    font-size: 40px;
+    font-weight: 800;
+    opacity: 70%;
+} */
+.bgphoto::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 35%;
+    color: red;
+    margin-top: 0!important;
+}
+.home-index{
+    justify-content: space-between;
+}
+.home1{
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+.home-header{
+    margin-left:45%;
+    margin-top: 2rem;
+}
+@media screen and (min-width:900px){
+    .home-index{
+        margin-top: 0rem!important;
+    }
+    .home{
+         width: 100%;
+       height: 100%;
+       padding-top: 3rem!important;
+    }
+   .home1{
+     display:flex;
+   }  
+}
+.home2{
+    width: fit-content;
+}
+.home-div1{
+    display: flex;
+    justify-content: space-between;
+}
+.home-div2{
+    width: 60vw;
+}
+.img1{
+      width: 20rem;
+      height: 35rem;
+      margin-left: 5rem;
+      z-index: 1;
+    }
+.img2{
+    margin-left: 5rem;
+    width: 50rem;
+}
+.img3{
+    margin-left: 5rem;
+}
+.homeh2{margin-left: 4.5rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+    color: linear-gradient(60deg,#29323c 0%,#485563 100%);
+    font-weight: bold;
+}
+p{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.p1{
+    width: 50vw;
+}
+.p2{margin-left: 3rem;
+    width: 90vw;
+    text-justify:distribute;
+}
+.p3{margin-left: 3rem;
+     width: 90vw;
+}
+.state{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+.states{
+    text-decoration: none;
+}
+.states-list{
+    margin:1rem 2rem;
+    background-image: linear-gradient(60deg,#29323c 0%,#485563 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    height: 45vh;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.states-div{
+    margin: auto;
+    margin-top: .5rem;
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    flex-direction: column;
+    margin-bottom: .5rem;
+    position: relative;
+}
+.states-img{
+    margin:2rem 5.5rem;
+    width: 5px;
+    height: 5px;
+    position: relative;
+}
+.states-name{
+    margin: auto;
+    position: relative;
+    color:White ;
+    font-size: 20px;
+    font-weight: 200px;
+}
+.states-p{
+    padding: 5px;
+    color:white;
+    margin: auto;
+    padding: 1rem;
+}
+.swiper-slide{
+    color: black;
+    background-color:linen;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+}
+.division{
+    margin-left: 5rem;
+}
+
+@media screen and (max-width:1000px){
+    
+    .states{
+        flex-direction: column;
+    }
+    .states-list{
+        margin: 1rem;
+        width: 80vw;
+        height: 40vh;
+        margin: auto;
+    }
+    .states-img{
+        margin-left: 7.5rem;
+    }
+    .states-name{
+        font-size: 25px;
+    }
+    .states-div{
+        margin: 0;
+    }
+    .states-p{
+        font-size: 20px;
+    }
+}
+.true-div{
+    background-color: brown;
+    color: darkgray;
+    width: 18%;
+    height: 30%!important;
+    margin: 1rem;
+    margin-top: 10rem;
+    border: 3px double white;
+    border-radius: 20px;
+    position: fixed;
+    right: 1px;
+}
+.false-div{
+    margin-left: 20%;
+    background-color: transparent;
+}
+.close-btn{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    font-size: 20px;
+    margin-left: 12rem;
+    transition: all 0.2s ease-in;
+}
+.true-btn{
+    visibility: hidden;
+  }
+  .false-btn{
+    visibility:visible;
+    background-color:rgb(123, 72, 216) ;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 4rem;
+    height: 2rem;
+  }
+.login-div{
+    width: 10rem;
+    margin: auto;
+}
+.log{
+    background: transparent;
+}
+.login-btn{
+    background-color:  rgb(123, 72, 216);
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    margin: 1rem 1rem 1rem 5rem;
+}
+.login-btn:hover{
+    transform: scale(1.25);
+}
+.login-div .responsive-nav{
+      transform: none;
+      opacity: 1;
+      cursor: pointer;
+    }
+    /* nav .close-btn{
+      position: absolute;
+      top: .2rem;
+      right: 1rem;
+    } */
+.division{
+    text-decoration: none;
+}
+.div-btn{
+    background-color:rgb(0, 0, 0,0) ;
+    font-weight: bold;
+    border: none;
+    color: linear-gradient(60deg,#29323c 0%,#485563 100%);
+    box-shadow: 10px 14px 83px 6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 14px 83px 6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 14px 83px 6px rgba(0,0,0,0.75);
+margin: .5rem 1rem 0rem 0rem;
+}
+.division-div{
+    margin-left: 10%;
+}
+.div-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin: .3rem 0rem;
+    padding: .5rem;
+}
+.div-div{
+    margin: auto;
+}
+.div-img{
+    max-width: 5rem;
+}
+.div-p{
+    width: 60rem;
+}
+.login-window{
+    margin: auto;
+    position: absolute;
+    width: 40%!important;
+    height: 30%;
+    position: fixed!important;
+    margin-top: 0!important;
+    margin-left: 60%!important;
+    z-index: 2;
+}
+.faq{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    background-color: darkgray;
+    position: relative;
+}
+@media screen and (max-width:1000px){
+    .login-window{
+        width: 80vw!important;
+        height: 80vh;
+        margin-left: 0rem!important;
+        position: absolute;
+        margin-top: 1rem!important;
+    }
+    .home-header{
+        margin-left: 30%;
+    }
+    .home-index{
+        display: flex;
+        flex-direction: column;
+    }
+    .bgphoto{
+        height: 100vh;
+    }
+    .bgphoto h5{
+        margin-left: 2rem;
+        font-size: 50px;
+        width: 80%;
+    }
+    .division{
+        margin-left: 0;
+    }
+    .division-div{
+        margin-left: 0;
+    }
+    .div-div{
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width:1000px){
+    .home-div1{
+        flex-direction: column;
+    }
+    .home-divs{
+        max-width: 100vw;
+    }
+    .home1{
+        align-items: center;
+    }
+    .img1{
+        margin: auto;
+        margin-left: 2.5rem!important;
+        width:15rem!important;
+        position: relative;}
+    .p1{
+        margin-left: 1px!important;
+        width: 95vw;
+    }
+    .img2{
+        width: 90vw;
+        margin: 0;
+    }
+    .T2{margin: auto;}
+    .p2{
+       margin-left: 1px!important;
+        width: 95vw!important;
+    }
+    .img3{
+        width:90vw ;
+        margin: 0;
+    }
+    .p3{
+        margin-left: 1px!important;
+        width: 95vw;
+    }
+    .true-div{
+        width: 15rem;
+        height: 20%!important;
+        position: relative;
+        margin: auto;
+    }
+    .home-index{
+        width: 15rem;
+        display: contents;
+        margin: auto;
+    }
+    .close-btn{
+        margin-left: 1rem;
+    }
+    .false-btn,.true-btn{
+        margin: 1rem;
+    }
+    .div-p{
+        width: 94vw;
+    }
+.states-list{
+        width: 80%;
+        height: 45vh;
+    }
+    .states-img{
+        margin:1rem 7rem;
+    }
+    .states-div{
+        margin-top: 0;
+    }
+}
+.hfooter{
+    background-image: linear-gradient(60deg,#29323c 0%,#485563 100%);
+    color: silver;
+    align-items: center!important;
+    margin: auto!important;
+}
+.footer{
+    margin-top: 1rem!important;
+}
+.HFlogo{
+    top: 1rem!important;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.hhr{
+    width: 60%!important;
+    height: 1px!important;
+    position: absolute!important;
+    margin-top: 6rem!important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto!important;
+    border-radius: 3px;
+   background-color: silver;
+}
+.flogo{
+    margin: auto;
+    width: 4rem;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(133, 206, 206);
+    font-style:oblique;
+    border:2px dotted yellow;
+    border-radius: 20px;
+    border-left: 1px black;
+    border-right: 1px black;
+    z-index: 1;
+    background-image: linear-gradient(60deg,#29323c 0%,#485563 100%);
+}
+.hsocial{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size:20px ;
+}
+.hicon{
+    display: flex;
+    width: 20rem;
+    background-color: transparent;
+    gap: 2rem;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+.footer2{
+    margin-left: 12rem!important;
+    display: flex;
+    align-items: center!important;
+    justify-content: space-around;
+    padding-bottom: 0rem!important;
+}
+.footer2Item{
+    width: 20%!important;
+    margin: 0rem!important;
+    align-items: end!important;
+}
+.footer2Item>li>h5{
+    padding: 0!important;
+    margin: 0!important;
+}
+@media screen and (max-width:1000px){
+    .footer2{
+        margin-left: 0!important;
+        justify-content:flex-start!important;
+    }
+    .footer2Item{
+        width:9%!important;
+        padding-left: 0!important;
+        margin: 0!important;
+    }
+    .hsocial{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: start;
+    margin-left: 1rem;
+    font-size:10px ;
+}
+.hicon{
+    display: flex;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    }
+    .HFlogo{
+        top: 0!important;
+    }
+}

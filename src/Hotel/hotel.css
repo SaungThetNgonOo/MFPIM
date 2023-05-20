@@ -1,0 +1,214 @@
+html{
+    overflow-x: hidden;
+}
+.login-hotel{
+    margin: auto;
+    position: absolute;
+    width: 40%!important;
+    height: 30%;
+    position: fixed!important;
+    margin-top: 6rem!important;
+    margin-left: 20%!important;
+    z-index: 2;
+}
+/* .lo-btn{
+    background-color:  rgb(123, 72, 216);
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    margin: auto;
+    margin-left: 2rem;
+    margin-top: 0rem!important;
+    }
+    .lo-btn:hover{
+      transform:scale(1.25);
+    } */
+.hotels{
+    background-color: linen;
+    width: 100vw;
+}
+.hotel1{
+    background-image: url('./Hbg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 0!important;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    /* overflow: hidden; */
+}
+.hotel1::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 35%;
+    /* z-index: 1;  */
+}
+header>.navTitle{
+    margin-left: 1rem!important;
+    width: fit-content;
+    font-size: 30px;
+}
+.headerBtn{
+    width: 4rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: linen;
+}
+.hotel111{
+    margin:15rem 0rem 3rem 3rem;
+    color: white!important;
+    z-index: 1;
+}
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerListItem.active{
+    width: 100px;
+    border: 1px solid linen;
+    padding: 10px;
+    border-radius: 20px;
+}
+.headerSearch{
+    height: 45px;
+    background-color: linen;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    top: 15rem;
+    width: 40%;
+    max-width: 1024px;
+    margin-left: 41.7rem;
+    z-index: 2;
+}
+.headerSearchItem{
+    cursor: pointer;
+
+}
+.headerSearchBtn{
+        border: none;
+        cursor: pointer;
+    }
+#fav{
+        border: 1px solid yellow;
+    }
+option{
+        border: 1px solid yellow;
+        border-radius: 20px;
+    }
+@media screen and (max-width:800px){
+    .headerSearch{
+        margin-left: 0!important;
+        width: fit-content;
+        height: auto;
+        margin-top: 10rem;
+        margin-left: 1rem!important;
+    }
+    .headerSearchItem{
+       width: 11rem;
+       margin-left: 5px;
+       gap: 0;
+       font-size: 10px!important;
+       padding: 0!important;
+       margin: 0!important;
+    }
+    .headerSearchInput{
+        width: 8rem;
+    }
+    .date{
+        top: 55px!important;
+        right: 1rem!important;
+    }
+    .options{
+        top: 100px !important;
+    }
+    
+}
+.headerIcon{
+    color: brown;
+}
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+    color: blue;
+}
+.headerSearchText{
+    color: linen;
+    cursor: pointer;
+}
+.date{
+    position: absolute;
+    top: 35px;
+    z-index: 2;
+}
+option{
+    z-index: 2;
+    position: absolute;
+    top: 30px;
+    color: blue;
+    background-color: silver;
+    border-radius: 10px!important;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+.optionItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color:blue;
+}
+.optionCounterButton{
+    width: 30px;
+    height: 30px;
+    border: 1px solid blue;
+    font-size: 15px;
+}
+.optionCounterButton:disabled{
+    cursor: not-allowed;
+}
+.homeContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.homeTitle{
+    width: fit-content;
+    font-size: 30px;
+}
+@media screen and (max-width:1000px){
+    option{
+        height: .5rem;
+    }
+}

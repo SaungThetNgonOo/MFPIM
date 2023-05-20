@@ -1,0 +1,132 @@
+.login-form{
+  width: 30vw!important;
+  height: 70vh;
+  margin-left: 25%;
+
+}
+.Sign{
+  background-color: darkgray;
+  margin: 0!important;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.Sing-btn{
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  margin-left: 35%;
+}
+.Blogin{
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  margin-left: 35%;
+}
+@media screen and (max-width:1000px){
+  .login-form{
+    margin-top: 0;
+    width: 80vw!important;
+    height: 70vh!important;
+    margin-left: 1rem!important;
+  }
+  .form{
+    margin-top: 0;
+    position: absolute;
+    position: sticky;
+    width: 80vw!important;
+    height: 73vh!important;
+  }
+  .close-login{
+    margin-top:auto !important;
+    margin-left: 13rem!important;
+    padding: 0;
+    width: 3rem;
+    height: 4rem;
+    font-size: 20px;
+  }
+}
+
+.close-login{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  margin: 0rem 22rem 0rem 1rem!important;
+}
+.cl{
+  margin-bottom: 2rem!important;
+}
+.or{
+  margin-left: 45%;
+}
+.form-row{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+.form{
+background-color:rgba(0,0,0,0.7);
+font-size: 20px;
+font-weight:bolder;
+width: 30vw;
+height: 78vh;
+border-radius: 1em;
+box-shadow: 0 0.1550em rgb(156,156,156);
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+color: blue;
+margin:auto;
+align-items: center;
+letter-spacing: 0.3rem;
+}
+label{
+  width: 8rem;
+}
+input{
+  width: auto;
+}
+@media screen and (max-width:800px){
+  label{
+    margin-left: 1rem;
+  }
+  input{
+    margin-left: 1rem;
+  }
+}
+
+.Login-btn{
+    position: relative;
+    background-color:blue;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem;
+    width: 8rem;
+    height: 3rem;
+    margin: auto;
+}
+.login{
+  margin-left: 25%!important;
+}
+h5{
+  margin: 3rem 0 2rem 0;
+}
+.left{
+  display: flex;
+}
+.icon{
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.loginButton{
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: white;
+}

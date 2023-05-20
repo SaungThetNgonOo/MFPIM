@@ -1,0 +1,278 @@
+.Bmap{
+    background-color: linen;
+    width: 20rem;
+    height: 20rem;
+}
+.Body{
+    background-color: linen;
+    padding-top: 0rem!important;
+    padding: 5rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    color: black;
+    margin: 1rem 6rem;
+}
+.Body2{
+    margin: 2rem;
+    margin-left: 6rem;
+    display:grid;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.login{
+    margin: auto;
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    position: fixed;
+    margin-left: 20%;
+    margin-top: 1.5rem;
+}
+@media screen and (max-width:1000px){
+    .Bmap{
+    background-color: linen;
+    margin-left: 4rem;
+    width: 15rem;
+    height: 20rem;
+}
+    .Body{
+        display: contents;
+        padding: 1rem!important;
+        gap: 0!important;
+        margin: 0!important;
+    }
+    .Body2{
+        margin-top: 1rem!important;
+        margin: 0!important;
+        gap: 0!important;
+    }
+    .Bimg{
+        margin-left: 40%!important;
+    }
+    .Btext{
+    margin-left: .5rem!important;
+    width: 97vw!important;
+}
+.Btitle{
+    margin: auto!important;
+}
+}
+.Bimg{
+    width: 5rem;
+    margin-left: 45%;
+}
+.Btitle{
+    margin-left: 40%;
+    width: fit-content;
+    font-size: 25px;
+    font-style: italic;
+    font-weight:800;
+}
+.Btext{
+    margin-left: 2rem;
+}
+.DivG{
+    background-color: linen;
+    padding-top: 6rem;
+    width: 100vw;
+}
+.Div{
+    margin: 1rem;
+    color: black;
+    /* border: 1px solid blue; */
+    width: 90vw;
+    background-color: linen;
+}
+.Div-div{
+    margin-left: 2rem;
+    margin-bottom: 0;
+    color:black;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    /* border: 1px solid palevioletred; */
+}
+.Division{
+    text-decoration: none;
+}
+.DivL{
+    text-decoration: none;
+}
+.Div-name{
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    color:black!important;
+    margin-left: 3rem;
+    /* border: 1px solid black; */
+}
+.DivL{
+    text-decoration: none;
+}
+.Div-img{
+    margin: 1rem;
+    max-width: 30vw!important;
+    height: 20rem;
+}
+.Div-p{
+    width: 60vw;
+    margin-top: 1rem;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    /* border: 1px solid black; */
+}
+.Div-imgg{
+    display: flex;
+    margin: 0rem 1rem 0rem 0rem;
+    border: 1px solid black;
+}
+.Bus span{
+    color: black;
+    font-weight: 500;
+    font-style: italic;
+}
+.Bus{
+    font-size: 20px;
+    margin-top: 1rem;
+    color: blue;
+}
+.walk{
+    font-size: 20px;
+    color: black;
+}
+.BusStop ul{
+    margin-left: 0;
+    display: flex;
+    justify-content:space-between;
+    font-size: 15px;
+    font-weight: 500;
+}
+.DetailSwiper{
+    margin-left: 7rem;
+    width: 85%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.SwiperSlide{
+    max-width:fit-content;
+    max-height:max-content;
+    border: 1px solid white;
+}
+.Div-img1{
+    max-width: 15vw!important;
+    height: 10rem;
+}
+@media screen and (max-width:1000px){
+    .BusStop ul{
+    width:90vw!important ;
+    border: 1px solid black;
+    font-size: 20px;
+    padding-left: 3rem!important;
+    display: contents;
+}
+.BusStop ul li{
+    margin-left: 1rem;
+    max-width: 80vw!important;
+}
+    .Div-img1{
+    max-width: 100vw!important;
+    height: 10rem;
+}
+.DetailSwiper{
+    margin-left: 1.5rem!important;
+    width: 95%;
+}
+    .swiper{
+    margin-left: 0;
+}
+    .Divs{
+    padding-top: 3rem!important;
+    display: flex;
+    flex-direction: column;
+    }
+    .Div{margin-left: 0!important;}
+    .Div-div{
+        margin: 1rem!important;
+        display: flex;
+        flex-direction: column;
+    }
+    .Div-img{
+        max-width: 90%!important;
+        height: auto;
+    }
+    .Div-p{
+        width: 90vw;
+    }
+    .Afooter{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+.Afooter{
+    display: flex;
+    background-image:linear-gradient(60deg,#29323c 0%,#485563 100%);
+    color: linen;
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+}
+.Af1{
+    line-break: 10px;
+}
+.Af2{
+    display: flex;
+}
+.link{
+    margin: 2rem;
+    margin-top: 4rem;
+    color: linen;
+    text-decoration: none;
+    font-size: 20px;
+}
+.AfHotel{
+    width: fit-content;
+    height: fit-content;
+    margin: 2rem;
+    font-size: 20px!important;
+    color: silver;
+    margin-top: 4rem!important;
+}
+@media screen and (max-width:1000px){
+    .login{
+        margin-left: 0!important;
+    }
+}
+.cline h4{
+    margin-left: 2rem;
+}
+.cline ol{
+    margin-left: 5rem;
+    list-style:square;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    justify-content:space-around;
+    align-content: center;
+    grid-template-columns: repeat(2,auto);
+    color: black;
+}
+.cline ol li{
+    font-weight: 500;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    padding: 1rem;
+}
+.cline ol li span{
+    color:blue;
+    font-style: italic;
+    font-size: 20px;
+}
+.cbus{
+    color: blue;
+}
+
